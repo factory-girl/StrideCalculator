@@ -10,7 +10,6 @@ public class StrideCalculatorTest {
 		int[] flightsTestSet2 = {7, 6, 2};
 		assertEquals(effortCalculator.calculateStrides(flightsTestSet1, 3), "{ \"leastNumberOfStrides\": 6.0 }");
 		assertEquals(effortCalculator.calculateStrides(flightsTestSet2, 2), "{ \"leastNumberOfStrides\": 12.0 }");
-		System.out.println(effortCalculator.calculateStrides(flightsTestSet2, 2));
 	}
 
 }
